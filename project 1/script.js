@@ -3,6 +3,7 @@ const body = document.querySelector('body')
 
 buttons.forEach(function (button) {
     button.addEventListener('click', function(e){
+        // check if color is equal to the target
         if(e.target.id ==='grey'){
             body.style.backgroundColor = e.target.id
         }
