@@ -5,6 +5,7 @@ buttons.forEach(function (button) {
     button.addEventListener('click', function(e){
         // check if color is equal to the target
         if(e.target.id ==='grey'){
+            // change background color if target is grey
             body.style.backgroundColor = e.target.id
         }
         if(e.target.id ==='white'){
